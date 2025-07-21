@@ -1,0 +1,24 @@
+{
+  "name": "@voroniyx/logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/main.js",
+  "types": "build/src/main.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Voroniyx",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

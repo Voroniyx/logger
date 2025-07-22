@@ -1,6 +1,6 @@
 {
   "name": "@voroniyx/logger",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "build/src/main.js",
   "types": "build/src/main.d.ts",
@@ -18,7 +18,4 @@
   "devDependencies": {
     "@types/node": "^24.0.15"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  }
 }

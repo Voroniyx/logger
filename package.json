@@ -1,6 +1,6 @@
 {
   "name": "@voroniyx/logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "build/src/main.js",
   "types": "build/src/main.d.ts",
@@ -14,6 +14,9 @@
   "dependencies": {
     "chalk": "^5.4.1",
     "winston": "^3.17.0"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@types/node": "^24.0.15"
